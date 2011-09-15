@@ -1,0 +1,10 @@
+ /*
+  * manipulateTemplates
+  * https://github.com/menatwork/manipulateTemplates
+  */
+  
+ /*
+  * copyright
+  * https://github.com/menatwork/copyright
+  * http://www.contao.org/erweiterungsliste/view/copyright.html
+  */
