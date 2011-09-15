@@ -1,0 +1,5 @@
+glob:.svn
+glob:system/html/*
+glob:system\html*
+glob:system/logs/*
+glob:system/tmp/*
