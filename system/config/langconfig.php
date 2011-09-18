@@ -31,12 +31,12 @@
 if ($GLOBALS['TL_LANGUAGE'] == 'de')
 {
   $GLOBALS['TL_LANG']['MSC']['more'] = 'mehr';
-
+  $GLOBALS['TL_LANG']['MSC']['copyOf'] = '%s';
 }
 elseif ($GLOBALS['TL_LANGUAGE'] == 'en')
 {
   $GLOBALS['TL_LANG']['MSC']['more'] = 'more';
-
+  $GLOBALS['TL_LANG']['MSC']['copyOf'] = '%s';
 } 
  
 ?>
