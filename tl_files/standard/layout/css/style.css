@@ -8,65 +8,11 @@
 
 @media screen, projection
 {
-
- /**
-  * Reset elements
-  */
-
-  * {
-	margin:0;
-	padding:0;
-	border:0;
-  }
-
-  html, body, div, span, applet, object, iframe,
-  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-  a, abbr, acronym, address, big, cite, code,
-  del, dfn, font, img, ins, kbd, q, s, samp,
-  small, strike, sub, sup, tt, var,
-  dl, dt, dd, ol, ul, li,
-  fieldset, form, label, legend {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
-	vertical-align: baseline;
-  }
-
-  img, object {
-	display:block;
-	margin:0;
-	padding:0;
-	border:0;
-  }
-
-  :focus {
-	outline: 0;
-  }
-
-  ol, ul {
-	list-style: none;
-  }
-
-  html, body {
-	height:100%;
-  }
   
   body {
 	background-color:#fff;
-	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	font:normal 12px/1.5em Arial, Helvetica, sans-serif;
 	color:#000;
-	text-align:left;
-	overflow-y:scroll;
-	position:relative;
-  }
-  
-  body.ie {
-	overflow:visible;
   }
   
  /*------------------------------------------------------------------------*/
