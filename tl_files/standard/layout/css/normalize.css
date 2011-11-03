@@ -68,7 +68,6 @@ html {
     overflow-y: scroll; /* 2 */
     -webkit-text-size-adjust: 100%; /* 3 */
     -ms-text-size-adjust: 100%; /* 3 */
-	height: 100%;
 }
 
 /*
@@ -77,9 +76,6 @@ html {
 
 body {
     margin: 0;
-	height: 100%;
-	text-align: left;
-	position: relative;
 }
 
 /* 
@@ -98,14 +94,6 @@ textarea {
 /* =============================================================================
    Links
    ========================================================================== */
-
-a {
-    color: #00e;
-}
-
-a:visited {
-    color: #551a8b;
-}
 
 /*
  * Addresses outline displayed oddly in Chrome
@@ -244,11 +232,11 @@ sub {
 ul,
 ol {
     margin: 1em 0;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 20px;
 }
 
 dd {
-    margin: 0 0 0 40px;
+    margin: 0 0 0 20px;
 }
 
 nav ul,
@@ -266,12 +254,14 @@ nav ol {
  * 1. Removes border when inside 'a' element in IE6/7/8/9, FF3
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ * 3. Remove 3px bug
+ *    http://jsfiddle.net/andreasisaak/GqPQG/
  */
 
 img {
     border: 0; /* 1 */
     -ms-interpolation-mode: bicubic; /* 2 */
-	vertical-align: middle;
+    vertical-align: middle; /* 3 */
 }
 
 /*
@@ -357,7 +347,6 @@ input {
  * 1. Improves usability and consistency of cursor style between image-type 'input' and others
  * 2. Corrects inability to style clickable 'input' types in iOS
  * 3. Corrects inner spacing displayed oddly in IE7 without effecting normal text inputs
- *    Known issue: inner spacing remains in IE6
  */
 
 button,
@@ -367,6 +356,15 @@ input[type="submit"] {
     cursor: pointer; /* 1 */
     -webkit-appearance: button; /* 2 */
     *overflow: visible;  /* 3 */
+}
+
+/*
+ * 1. Improves usability and consistency of cursor style between image-type 'input' and others in IE6
+ * 2. Corrects inner spacing of buttons displayed oddly in IE6
+ */
+* html button {
+    cursor: pointer; /* 1 */
+    overflow: visible; /* 2 */
 }
 
 /*

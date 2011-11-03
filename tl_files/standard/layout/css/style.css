@@ -95,6 +95,13 @@
   * Navigation elements
   */
   
+  .mod_navigation ul, 
+  .mod_customnav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+  }
+  
   #nav {
 
   }    
