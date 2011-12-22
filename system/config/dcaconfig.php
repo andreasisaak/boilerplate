@@ -36,6 +36,7 @@ $GLOBALS['TL_DCA']['tl_page']['list']['label']['format'] = '%s <span style="colo
 $GLOBALS['TL_DCA']['tl_article']['list']['label']['fields'][] = 'id'; 
 $GLOBALS['TL_DCA']['tl_article']['list']['label']['format'] = '%s <span style="color: #aaaaaa; padding-left: 3px;">(%s, ID: %s)</span>';
 
-$GLOBALS['TL_DCA']['tl_content']['fields']['headline']['options'] = array('h2','h3','h4','h5','h6');  
+$GLOBALS['TL_DCA']['tl_content']['fields']['headline']['options'] = array('h2','h3','h4','h5','h6');
+$GLOBALS['TL_DCA']['tl_article']['fields']['author']['eval']['doNotCopy'] = false;
 
 ?>
