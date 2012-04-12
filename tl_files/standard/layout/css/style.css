@@ -2,7 +2,7 @@
   *
   * Screenlayout
   *
-  * @copyright		Copyright 2011 | MEN AT WORK
+  * @copyright		Copyright 2012 | MEN AT WORK
   * @link 			http://www.men-at-work.de
   */
 
@@ -10,9 +10,7 @@
 {
   
   body {
-	background-color:#fff;
 	font:normal 12px/1.5em Arial, Helvetica, sans-serif;
-	color:#000;
   }
   
  /*------------------------------------------------------------------------*/

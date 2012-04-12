@@ -2,7 +2,7 @@
   *
   * Reset
   *
-  * @copyright		Copyright 2011 | MEN AT WORK
+  * @copyright		Copyright 2012 | MEN AT WORK
   * @link 			http://www.men-at-work.de
   */
 
@@ -29,9 +29,8 @@
   }
 
   body {
-  	line-height:1;
-  	color:black;
-  	background:white;
+  	color:#000;
+  	background-color:#fff;
   }
   
   ol, ul {
