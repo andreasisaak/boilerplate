@@ -3,7 +3,7 @@
   * Screenlayout
   *
   * @copyright		Copyright 2012 | MEN AT WORK
-  * @link 			http://www.men-at-work.de
+  * @link 		http://www.men-at-work.de
   */
 
 @media screen, projection
@@ -11,6 +11,7 @@
   
   body {
 	font:normal 12px/1.5em Arial, Helvetica, sans-serif;
+	color:#000;
   }
   
  /*------------------------------------------------------------------------*/
