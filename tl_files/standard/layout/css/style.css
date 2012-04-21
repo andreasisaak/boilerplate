@@ -33,10 +33,6 @@
 	color:#000;
   }
   
-  .js h2, .js h3, .js h4, .js h5, .js h6 {  
-	color:#000;
-  }
-  
   input, textarea, select {
 	font:normal 12px/1.5em Arial, Helvetica, sans-serif;
   }
