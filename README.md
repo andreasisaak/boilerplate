@@ -1,0 +1,1 @@
+[This is my old boilerplate, please use the new one!](https://github.com/andreasisaak/contao-boilerplate)
